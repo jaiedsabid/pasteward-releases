@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/jaiedsabid/pasteward-releases/releases/latest"><img src="images/download-badge.svg" alt="Download for macOS" width="156" height="40"></a>
+  <a href="https://github.com/jaiedsabid/pasteward-releases/releases/latest"><img src="images/download-macos-badge.svg" alt="Download for macOS" width="132" height="40"></a>
   <br>
   <sub>Free 14-day trial · macOS 14 or later · Apple silicon</sub>
 </p>
