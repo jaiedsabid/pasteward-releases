@@ -1,0 +1,11 @@
+name: Feature request
+description: Suggest something Pasteward could do
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like Pasteward to do?
+      description: Describe the problem first, then what you would like to see.
+    validations:
+      required: true
