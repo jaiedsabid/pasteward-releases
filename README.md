@@ -107,7 +107,7 @@ Pasteward is free to try for 14 days. After that it needs a lifetime license: on
 | **Pro** | 5 | Priority | $30 |
 | **Family** | 15 | Priority | $50 |
 
-**Buy:** [**Polar** (choose a plan)](https://buy.polar.sh/polar_cl_0Xz9c53Kl8Bs878gLGWruF0nCSLtynFgMloli3Ivrk9) · [**Lemon Squeezy** (choose a plan)](https://jaiedsabid.lemonsqueezy.com)
+**Buy:** [**Polar** (choose a plan)](https://buy.polar.sh/polar_cl_0Xz9c53Kl8Bs878gLGWruF0nCSLtynFgMloli3Ivrk9) · [**Lemon Squeezy** (choose a plan)](https://pasteward.lemonsqueezy.com)
 
 After you buy, open **Settings → License**, choose the site you bought from, paste your key and click **Activate**. To move a license to another Mac, click **Deactivate This Mac** first.
 
