@@ -88,7 +88,10 @@ Copy a series of things, then paste them one after another, or all at once. With
 1. Download `Pasteward-<version>.dmg` from the [latest release](https://github.com/jaiedsabid/pasteward-releases/releases/latest).
 2. Open it and drag **Pasteward** to **Applications**.
 3. Open Pasteward. It lives in your menu bar.
-4. macOS may say it can't verify the app, because releases are not yet notarized by Apple. Right-click Pasteward in Applications, choose **Open**, then **Open** again. You only do this once.
+4. macOS may say it can't verify the app, because releases are not yet notarized by Apple. You confirm once:
+   - **macOS 15 (Sequoia) or later:** double-click Pasteward and click **Done**. Then open **System Settings → Privacy & Security**, scroll to **Security**, click **Open Anyway** next to "Pasteward was blocked", and confirm with your password or Touch ID.
+   - **macOS 14 (Sonoma):** right-click Pasteward in Applications, choose **Open**, then **Open** again.
+   - **Any version, from Terminal:** `xattr -dr com.apple.quarantine /Applications/Pasteward.app`
 5. When asked, allow Pasteward under **System Settings → Privacy & Security → Accessibility**. That is what lets it paste for you. Without it, clips are still copied and you press ⌘V yourself.
 
 Every download is listed with its SHA-256 checksum in `SHA256SUMS.txt` on the release page.
