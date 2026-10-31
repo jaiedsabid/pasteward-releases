@@ -127,7 +127,7 @@ After you buy, open **Settings → License**, choose the site you bought from, p
 
 - **Something wrong?** [Open an issue](https://github.com/jaiedsabid/pasteward-releases/issues/new/choose). Include your macOS version, the Pasteward version (shown in the release you downloaded), and what you expected.
 - **Idea?** Open an issue too.
-- **License problems** (a key that won't activate, a refund): open an issue and leave your key out of it; we'll ask for details privately.
+- **License problems and refunds** (a key that won't activate, a purchase you want refunded): email contact@devscrate.com with the address you bought with and the site you bought from (Polar or Lemon Squeezy). Please don't post your key in an issue.
 
 This repository holds the downloads and the update feed. The source code is not published here.
 
