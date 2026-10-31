@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/jaiedsabid/pasteward-releases/releases/latest"><img src="images/download.svg" alt="Download for macOS" width="260"></a>
+  <a href="https://github.com/jaiedsabid/pasteward-releases/releases/latest"><img src="images/download.svg" alt="Download for macOS" width="300"></a>
 </p>
 
 <p align="center">
