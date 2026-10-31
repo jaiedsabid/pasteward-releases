@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <a href="images/hero.png"><img src="images/hero.png" alt="Pasteward's main window: every clip in a searchable grid, with collections, categories and types in the sidebar" width="100%"></a>
+  <a href="images/hero-2.png"><img src="images/hero-2.png" alt="Pasteward's main window: every clip in a searchable grid, with collections, categories and types in the sidebar" width="100%"></a>
 </p>
 
 ## Why Pasteward
@@ -38,9 +38,9 @@ macOS remembers one thing at a time. Pasteward remembers all of it, keeps it on 
 Press **⇧⌘V** from any app. The panel opens beside what you are doing without stealing focus: pick a clip with the arrow keys, press **↩**, and it pastes. Dock it to any screen edge, float it, or open it at your pointer or text cursor.
 
 <p align="center">
-  <a href="images/quick-panel.png"><img src="images/quick-panel.png" alt="The Quick Panel docked to the right edge, in dark mode" width="300"></a>
+  <a href="images/quick-panel-2.png"><img src="images/quick-panel-2.png" alt="The Quick Panel docked to the right edge, in dark mode" width="300"></a>
   &nbsp;&nbsp;
-  <a href="images/quick-panel-light.png"><img src="images/quick-panel-light.png" alt="The Quick Panel in light mode" width="300"></a>
+  <a href="images/quick-panel-light-2.png"><img src="images/quick-panel-light-2.png" alt="The Quick Panel in light mode" width="300"></a>
 </p>
 
 - Chips under the search bar filter by collection, favorites, type, app or date, and by categories you define.
@@ -48,7 +48,7 @@ Press **⇧⌘V** from any app. The panel opens beside what you are doing withou
 - Prefer a strip? Dock it to the bottom or top of the screen.
 
 <p align="center">
-  <a href="images/quick-bar.png"><img src="images/quick-bar.png" alt="The Quick Panel docked along the bottom of the screen" width="100%"></a>
+  <a href="images/quick-bar-2.png"><img src="images/quick-bar-2.png" alt="The Quick Panel docked along the bottom of the screen" width="100%"></a>
 </p>
 
 ## Suggestions
@@ -56,7 +56,7 @@ Press **⇧⌘V** from any app. The panel opens beside what you are doing withou
 The clips you are most likely to paste next sit above your history, each with a reason you can read: *Pasted in Safari 6 times*, *Just copied*, *Often used*. Pasteward learns where you paste on your Mac only, and never reads or stores what you copied to do it.
 
 <p align="center">
-  <a href="images/suggestions.png"><img src="images/suggestions.png" alt="Suggested clips above the history, each with the reason it was picked" width="300"></a>
+  <a href="images/suggestions-2.png"><img src="images/suggestions-2.png" alt="Suggested clips above the history, each with the reason it was picked" width="300"></a>
 </p>
 
 Suggestions are part of the paid plans.
@@ -66,7 +66,7 @@ Suggestions are part of the paid plans.
 Copy a series of things, then paste them one after another, or all at once. With the stack collecting, **⌘V** in any app pastes the next clip. Keep several stacks, reorder them by dragging, and join clips with a new line, a space, a comma or your own separator.
 
 <p align="center">
-  <a href="images/paste-stack.png"><img src="images/paste-stack.png" alt="The Paste Stack window with five queued clips and Paste All" width="300"></a>
+  <a href="images/paste-stack-2.png"><img src="images/paste-stack-2.png" alt="The Paste Stack window with five queued clips and Paste All" width="300"></a>
 </p>
 
 ## Organize without effort
