@@ -1,12 +1,5 @@
 <p align="center">
-  <a href="images/AppIcon.png"><img src="images/AppIcon.png" alt="Pasteward app icon" width="128" height="128"></a>
-</p>
-
-<h1 align="center">Pasteward</h1>
-
-<p align="center">
-  <b>Everything you copy, searchable and one keystroke from pasting.</b><br>
-  A quiet, private clipboard manager for the Mac menu bar.
+  <img src="images/banner.png" alt="Pasteward: a quiet, private clipboard manager for macOS" width="100%">
 </p>
 
 <p align="center">
