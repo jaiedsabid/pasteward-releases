@@ -3,16 +3,14 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/jaiedsabid/pasteward-releases/releases/latest"><img src="images/download-macos-badge.svg" alt="Download for macOS" width="132" height="40"></a>
+  <a href="https://pasteward.com"><img src="images/download-macos-badge.svg" alt="Download for macOS" width="132" height="40"></a>
   <br>
-  <sub>Free 14-day trial · macOS 14 or later · Apple silicon</sub>
+  <sub>One-time license · 14-day refund · macOS 14 or later · Apple silicon</sub>
 </p>
 
 <p align="center">
-  <a href="https://github.com/jaiedsabid/pasteward-releases/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/jaiedsabid/pasteward-releases?label=release&color=3b7bff"></a>
   <img alt="macOS 14 or later" src="https://img.shields.io/badge/macOS-14%2B-lightgrey">
   <img alt="Apple silicon" src="https://img.shields.io/badge/Apple%20silicon-M1%20and%20later-lightgrey">
-  <a href="https://github.com/jaiedsabid/pasteward-releases/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/jaiedsabid/pasteward-releases/total?color=3b7bff"></a>
 </p>
 
 <p align="center">
@@ -80,7 +78,7 @@ Copy a series of things, then paste them one after another, or all at once. With
 
 **Requirements:** a Mac with Apple silicon (M1 or later) running macOS 14 (Sonoma) or later.
 
-1. Download `Pasteward-<version>.dmg` from the [latest release](https://github.com/jaiedsabid/pasteward-releases/releases/latest).
+1. Buy a license at [pasteward.com](https://pasteward.com), then paste your key on [pasteward.com/download](https://pasteward.com/download) to download `Pasteward-<version>.dmg`.
 2. Open it and drag **Pasteward** to **Applications**.
 3. Open Pasteward. It lives in your menu bar.
 4. macOS may say it can't verify the app, because releases are not yet notarized by Apple. You confirm once:
@@ -89,27 +87,23 @@ Copy a series of things, then paste them one after another, or all at once. With
    - **Any version, from Terminal:** `xattr -dr com.apple.quarantine /Applications/Pasteward.app`
 5. When asked, allow Pasteward under **System Settings → Privacy & Security → Accessibility**. That is what lets it paste for you. Without it, clips are still copied and you press ⌘V yourself.
 
-Every download is listed with its SHA-256 checksum in `SHA256SUMS.txt` on the release page.
-
 ### Updates
 
 Choose **Settings → General → Software update → Check for Updates…**, or switch on automatic checks there. Updates are signed, and Pasteward verifies the signature before installing anything.
 
 ## Plans
 
-Pasteward is free to try for 14 days. After that it needs a lifetime license: one payment, valid for as many devices as your plan includes.
+Pasteward needs a lifetime license: one payment, no subscription, valid for as many devices as your plan includes. If it is not for you, ask for a refund within 14 days.
 
 | Plan | Devices | Support | Price |
 |---|---|---|---|
-| **Standard** | 2 | Standard | $20 |
-| **Pro** | 5 | Priority | $30 |
-| **Family** | 15 | Priority | $50 |
+| **Standard** | 2 | Standard | $14.99 |
+| **Pro** | 5 | Priority | $24.99 |
+| **Family** | 15 | Priority | $39.99 |
 
 **Buy:** [**Polar** (choose a plan)](https://buy.polar.sh/polar_cl_0Xz9c53Kl8Bs878gLGWruF0nCSLtynFgMloli3Ivrk9) · [**Lemon Squeezy** (choose a plan)](https://jaiedsabid.lemonsqueezy.com)
 
 After you buy, open **Settings → License**, choose the site you bought from, paste your key and click **Activate**. To move a license to another Mac, click **Deactivate This Mac** first.
-
-**The trial** shows your newest 25 clips (older ones are kept and return with a license), and includes 1 custom category, 1 custom collection and 9 Paste Stack uses. Suggestions need a license.
 
 ## Privacy
 
@@ -120,11 +114,11 @@ After you buy, open **Settings → License**, choose the site you bought from, p
 
 ## Support
 
-- **Something wrong?** [Open an issue](https://github.com/jaiedsabid/pasteward-releases/issues/new/choose). Include your macOS version, the Pasteward version (shown in the release you downloaded), and what you expected.
+- **Something wrong?** [Open an issue](https://github.com/jaiedsabid/pasteward-releases/issues/new/choose). Include your macOS version, the Pasteward version (Settings → General), and what you expected.
 - **Idea?** Open an issue too.
 - **License problems and refunds** (a key that won't activate, a purchase you want refunded): email contact@devscrate.com with the address you bought with and the site you bought from (Polar or Lemon Squeezy). Please don't post your key in an issue.
 
-This repository holds the downloads and the update feed. The source code is not published here.
+This repository holds the screenshots and the support issue tracker. The app is sold at [pasteward.com](https://pasteward.com) and the source code is not published.
 
 ---
 
