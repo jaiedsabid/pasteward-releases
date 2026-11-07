@@ -23,7 +23,7 @@ macOS remembers one thing at a time. Pasteward remembers all of it, keeps it on 
 
 - ✅ **Native and fast.** A small menu bar app written in Swift. Opening a page of clips takes a fraction of a millisecond with 20,000 clips in history; idle, it uses about 0.1% CPU.
 - ✅ **Private by construction.** No account, no cloud, no analytics, no tracking. Your history lives in a local database that only you can read.
-- ✅ **Passwords never saved.** Anything a password manager marks as secret, plus API keys, private keys, tokens and card numbers, is skipped.
+- ✅ **You choose what is left out.** Password manager apps are ignored by default, and switches skip passwords, API keys, private keys, tokens and card numbers. Ignore any app, folder or word too.
 - ✅ **A Quick Panel that stays out of your way.** It slides in without taking the keyboard from the app you are typing in.
 - ✅ **Suggestions that explain themselves.** The clips you are most likely to paste next appear on top, each with a plain reason.
 - ✅ **Search that understands you.** Instant, forgiving, with operators like `app:Safari type:link after:2026-10-01`.
@@ -109,16 +109,17 @@ After you buy, open **Settings → License**, choose the site you bought from, p
 
 - Your history is stored in `~/Library/Application Support/Pasteward`, readable only by you. It is never uploaded.
 - No analytics, no crash reporting, no account, no ads.
-- The only network use is optional and visible: link previews for links you copied (you can turn them off), the update check when you press it, and checking your license key with the site you bought it from (Polar or Lemon Squeezy), about once a week after you activate.
-- Concealed items from password managers, API keys, private keys, tokens and card numbers are skipped. You can also ignore whole apps.
+- The only network use is optional and visible: link previews for links you copied (you can turn them off), the update check (once a day by default; switch it off in Settings → General), and checking your license key with the site you bought it from (Polar or Lemon Squeezy), about once a week after you activate.
+- Password manager apps are ignored by default. You can switch on skipping of concealed items, API keys, private keys, tokens and card numbers, and ignore whole apps, folders and words.
 
 ## Support
 
-- **Something wrong?** [Open an issue](https://github.com/jaiedsabid/pasteward-releases/issues/new/choose). Include your macOS version, the Pasteward version (Settings → General), and what you expected.
-- **Idea?** Open an issue too.
-- **License problems and refunds** (a key that won't activate, a purchase you want refunded): email contact@devscrate.com with the address you bought with and the site you bought from (Polar or Lemon Squeezy). Please don't post your key in an issue.
+- **Something wrong?** [Open an issue](https://github.com/jaiedsabid/pasteward-releases/issues/new/choose). In Pasteward, **Settings → Support** opens the form with your version and macOS filled in and can copy the diagnostic info for you.
+- **Idea?** Open an issue too. Requests are read, answered, and shipped as soon as they are ready.
+- **License problems, refunds and anything private:** email contact@devscrate.com with the address you bought with and the site you bought from (Polar or Lemon Squeezy). Please don't post your key in an issue.
+- **Security or privacy problem?** Email instead of opening a public issue. See [SECURITY.md](SECURITY.md).
 
-This repository holds the screenshots and the support issue tracker. The app is sold at [pasteward.com](https://pasteward.com) and the source code is not published.
+This repository holds the screenshots and the public tracker for issues and feature requests reported by users. The app is sold at [pasteward.com](https://pasteward.com) and the source code is not published, so pull requests are not accepted.
 
 ---
 

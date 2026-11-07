@@ -1,5 +1,11 @@
 blank_issues_enabled: false
 contact_links:
+  - name: Email support (licenses, refunds, anything private)
+    url: mailto:contact@devscrate.com
+    about: A key that won't activate, a refund, or anything you would not want public. Do not post your license key in an issue.
+  - name: Questions and answers
+    url: https://pasteward.com/#faq
+    about: Pasting does nothing, permissions, moving a license to another Mac.
   - name: Buy a license
-    url: https://github.com/jaiedsabid/pasteward-releases#plans
+    url: https://pasteward.com/#plans
     about: Plans, prices and where to buy.

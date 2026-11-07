@@ -2,18 +2,31 @@ name: Bug report
 description: Something in Pasteward does not work as expected
 labels: [bug]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. This tracker is public, so please **don't paste your license key or anything you copied that is private**. For licenses, refunds or anything private, email contact@devscrate.com instead.
+        Tip: in Pasteward, **Settings → Support** opens this form with the version and macOS already filled in, and can copy the diagnostic info below.
   - type: textarea
     id: what
     attributes:
       label: What happened?
-      description: What did you do, what did you expect, and what happened instead?
+      description: What did you do, what did you expect, and what happened instead? A screenshot or screen recording helps.
     validations:
       required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Copy …
+        2. Press ⇧⌘V
+        3. …
   - type: input
     id: version
     attributes:
       label: Pasteward version
-      description: The version you downloaded, for example 0.6.0
+      description: Settings → Support shows it, for example 1.1.0.
     validations:
       required: true
   - type: input
@@ -23,13 +36,20 @@ body:
       placeholder: macOS 15.2, MacBook Pro M2
     validations:
       required: true
+  - type: dropdown
+    id: accessibility
+    attributes:
+      label: Is Pasteward allowed under System Settings → Privacy & Security → Accessibility?
+      options: ["Yes", "No", "Not sure"]
   - type: textarea
-    id: steps
+    id: diagnostics
     attributes:
-      label: Steps to reproduce
-      placeholder: |
-        1. Copy …
-        2. Press …
-  - type: markdown
+      label: Diagnostic info (optional)
+      description: In Settings → Support, press **Copy** under *Copy diagnostic info* and paste it here. It has no clip text and no license key.
+      render: text
+  - type: textarea
+    id: log
     attributes:
-      value: Please don't paste license keys or clipboard contents that are private.
+      label: Log (optional)
+      description: The tail of `~/Library/Logs/Pasteward/paste.log` (Settings → Support → Show in Finder). It records paste decisions and app ids, never what you copied, but please read it before posting.
+      render: text
